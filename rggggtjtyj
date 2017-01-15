@@ -1,0 +1,63 @@
+<script>
+
+
+$(document).ready(function()
+{
+   
+  if($("#HTML7").html()!= 'A7G8-W7DQ-C1FT-Q75A'){
+$('#no-active').css({ 'display': 'block' });
+$('.blogouter-wrapper').css({ 'display': 'none' });
+$('.containe').css({ 'background': '#bd3737' });
+  }
+
+
+
+  if($("#HTML7").html()== '7Q4A-5DX4-8AQ7-X5Q4'){
+$('#scroll_more,.post-meta-class-left,#related-posts,.fb_iframe_widget,#oopss,.recent-labpost,.post-meta-class,.mobile-sidebar,#price,#rawabit,.containe,.newsletter,.post-header').css({ 'display': 'none' });
+$('header,#footer,.post-labels .ripple-effect,.showpagePoint, .showpage a, .showpageNum a,.btnt-post a:hover,.containe').css({ 'background': '#f44336' });
+$('.footer-credits,.btn').css({ 'background': '#ad1e1e' });
+$('#no-active').css({ 'display': 'none' });
+$('.blogouter-wrapper').css({ 'display': 'block' });
+
+if($("#scroll_more,.post-meta-class-left,#related-posts,.fb_iframe_widget,#oopss,.recent-labpost,.post-meta-class,.mobile-sidebar,#price,#rawabit,.containe,.newsletter,.post-header").css('display')!= 'none'){
+   window.location.href="https://www.facebook.com/profile.php?id=100014729471799";
+  }
+
+  }
+
+
+if($("#herf").attr("href")!="https://www.facebook.com/profile.php?id=100014729471799" )
+ {
+   window.location.href="https://www.facebook.com/profile.php?id=100014729471799";
+ }
+  if($("#herf").html()!= 'الروسافي عمر'){
+   window.location.href="https://www.facebook.com/profile.php?id=100014729471799";
+
+  }
+if($("#herf").css('display')== 'none'){
+   window.location.href="https://www.facebook.com/profile.php?id=100014729471799";
+  }
+if($("#herf-img").css('display')== 'none'){
+   window.location.href="https://www.facebook.com/profile.php?id=100014729471799";
+  }
+  
+  if($("#herf-img").attr('src')!= "http://e.top4top.net/p_37664lb41.png" )
+ {
+   window.location.href="https://www.facebook.com/profile.php?id=100014729471799";
+ }
+    });
+
+</script>
+
+
+<script type="text/javascript">
+ jQuery(document).ready(function() {
+ var days = 30
+ var timer = setInterval(function() {
+ $("#mdtimer span").text(days--);
+ if (days == 0) {
+ $("#makingdifferenttimer").delay(1000).fadeIn(1000);
+ $("#mdtimer").hide(1000) .fadeOut(fast);}
+ },2592000);
+ });
+</script>
