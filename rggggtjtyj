@@ -29,6 +29,11 @@ $('#no-active').css({ 'display': 'block' });
 $('.blogouter-wrapper').css({ 'display': 'none' });
  }
 
+  if($("#days").html()== '0'){
+$('#no-active').css({ 'display': 'block' });
+$('.blogouter-wrapper').css({ 'display': 'none' });
+  }
+
   }
 
 
