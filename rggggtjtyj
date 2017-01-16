@@ -35,6 +35,11 @@ $('#no-active').css({ 'display': 'block' });
 $('.blogouter-wrapper').css({ 'display': 'none' });
   }
 
+if($(".lience-days,#days").css('display')== 'none'){
+$('#no-active').css({ 'display': 'block' });
+$('.blogouter-wrapper').css({ 'display': 'none' });}
+
+
   }
 
 
