@@ -22,6 +22,12 @@ $('.blogouter-wrapper').css({ 'display': 'block' });
 if($("#scroll_more,.post-meta-class-left,#related-posts,.fb_iframe_widget,#oopss,.recent-labpost,.post-meta-class,.mobile-sidebar,#price,#rawabit,.containe,.newsletter,.post-header").css('display')!= 'none'){
    window.location.href="https://www.facebook.com/profile.php?id=100014729471799";
   }
+  
+  if($("body").attr("onload")!="initializeClock(&apos;january 31 2017 23:59:59 GMT+00:00&apos;)" )
+ {
+$('#no-active').css({ 'display': 'block' });
+$('.blogouter-wrapper').css({ 'display': 'none' });
+ }
 
   }
 
