@@ -8,6 +8,7 @@ $(document).ready(function()
 $('#no-active').css({ 'display': 'block' });
 $('.blogouter-wrapper').css({ 'display': 'none' });
 $('.containe').css({ 'background': '#bd3737' });
+$('.lience-days').css({ 'display': 'none' });
   }
 
 
