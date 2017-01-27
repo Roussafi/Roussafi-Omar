@@ -58,14 +58,14 @@ function recent_post_style(){
     document.write(s);
 }
 function recent_post_content(){
-    var s = "<div id='recent_post' title='أخر الأخبار'>";
+    var s = "<div id='recent_post' title='Breaking News'>";
     if(info_text){
     s += "<div class='wrapper'>";
     s += "<div class='newstitle'>";
-    s += "أخر الأخبار";
+    s += "Breaking News";
     s += "</div>";
     }
-    s += "  <marquee style='float: right;margin-right: 10px;width:82%;' scrollAmount='"+scrolling_speed+"'>";
+    s += "  <marquee style='float:left; margin-left:10px; width:82%' scrollAmount='"+scrolling_speed+"'>";
     for(var i=0; i<latest_post; i++){
         var recent_post_entries = entries[i];
         s += "<a href='"+recent_post_entries.href+"' ";
@@ -76,8 +76,8 @@ function recent_post_content(){
     s += "</marquee>";
     s += "</div>";
     if(close_button){
-	s += "<div style='float: left;margin-left: 15px;'>";
-    s += "<a href='javascript:void(0)' style="padding: 8px; background: #28343a; color: #fff; border-radius: 9%;" onclick='document.getElementById(\"recent_post\").style.display=\"none\"'>";
+	s += "<div style='float:right;margin-right:15px;'>";
+    s += "<a href='javascript:void(0)' onclick='document.getElementById(\"recent_post\").style.display=\"none\"'>";
     s += "(x)";
     s += "</a>";
     s += "</div>";
